@@ -26,57 +26,54 @@
   <![endif]-->
 
   <!------------ Start fix bar ----------->
-  <div class="barfix">
-    <aside>
-      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-      <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
-    </aside>
-    <aside>
-      <form>
-        <label>Réserver:</label>
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+  <div class="fixbar">
+    <aside class="aleft">
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <div class="imid">
+        <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
         </div>
+        <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+    </aside>
+    <aside class="aright">
+      <form>
+        <label for="categorie">Réserver : </label>
+         <select name="categorie" id="categorie">
+           <option value="atelier">une séance d'atelier</option>
+           <option value="bad">un cours de badmington</option>
+           <option value="UV">une séance U.V.</option>
+         </select>
+         <button type="submit">Go</button>
       </form>
-      <a href="#">GO</a>
     </aside>
   </div>
     <!------------ End fix bar ----------->
 
     <!------------ Header ----------->
   <header>
-    <nav>
-      <ul>
-        <li><img src="#" alt="logo"></li>
-        <li>SPORT</li>
-        <li>ESTHETIQUE</li>
-        <li>CENTRE U.V.</li>
-        <li>NOUS CONTACTER</li>
+    <nav class="nav">
+      <ul class="liste">
+        <li><img src="http://oceaclub.com/imgs/ocea.png" alt="logo"></li>
+        <li class="bordure"><a href="#">SPORT</li></a>
+        <li class="bordure"><a href="#">ESTHETIQUE</li></a>
+        <li class="bordure"><a href="#">CENTRE U.V.</li></a>
+        <li><a href="#">NOUS CONTACTER</li></a>
       </ul>
     </nav>
-  </header>
-  <!------------ End header ----------->
   <!------------ Start picture with text ----------->
-    <div class="image">
-    <img src="#" alt="image de fond">
+  <div class="image">
+    <img src="http://oceaclub.com/slides/shbam.jpg" alt="image de fond"> 
     <div class="paragraphe">
       <p>
-        « Nous sommes Ocea. Nous représentons fièrement la pratique du fitness sur Lille et ses alentours. Le sport est notre métier mais c'est avant tout notre passion. Nous sommes un grand club - mais à taille humaine - où chacun des membres de notre grande famille se met au service de notre lutte contre la sédentarité. Vous satisfaire est notre priorité de tous les jours. Nous ne vous proposons pas de cours sur écran mais plus de 100 cours collectifs par semaine encadrés par des éducateurs sportifs diplômés. Nous connaissons les prénoms de nos adhérents. Nous sommes des passionnés. Nous sommes Ocea. »
+        « Nous sommes <a href="#">Ocea</a>. Nous représentons fièrement la pratique du fitness sur Lille et ses alentours. Le sport est notre métier mais c'est avant tout notre passion. Nous sommes un grand club - mais à taille humaine - où chacun des membres de notre grande famille se met au service de notre lutte contre la sédentarité. Vous satisfaire est notre priorité de tous les jours. Nous ne vous proposons pas de cours sur écran mais plus de 100 cours collectifs par semaine encadrés par des éducateurs sportifs diplômés. Nous connaissons les prénoms de nos adhérents. Nous sommes des passionnés. Nous sommes <a href="#">Ocea</a>. » 
       </p>
     </div>
   </div>
+  </header>
   <!------------ End picture with text ----------->
-    <section>
+  <!------------ End header ----------->
+  <section class="Oceasport"> 
     <h1>Ocea Sport</h1>
-    <div class="infos">
+    <div class="text-icones">
       <div class="icones">
         <i class="fa fa-5x">
           <b>7/7</b>
@@ -88,15 +85,19 @@
         <p>Plus de 100 cours collectifs chaque semaine</p>
       </div>
       <div class="icones">
-        <i class="fa fa-bicycle fa-5x" aria-hidden="true"></i>
-        <p>6 salles dont un studio RPM avec plus de 70 vélos</p>
+          <i class="fa fa-bicycle fa-5x" aria-hidden="true"></i>
+          <p>6 salles dont un studio RPM avec plus de 70 vélos</p>
       </div>
       <div class="icones">
         <i class="fa fa-arrows-h fa-5x" aria-hidden="true"></i>
         <p>7000 m² d'infrastructures</p>
       </div>
-      <a href="#">Testez-nous</a>
     </div>
+    <div class="button">
+    <div class="text-button">
+    <a href="#">TESTEZ-NOUS !</a>
+    </div>
+    </div> 
   </section>
   <section>
     <h2>Notre contrat</h2>

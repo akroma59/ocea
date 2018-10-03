@@ -110,26 +110,143 @@ textarea {
 /*
 ~~~~~~~~ Start Common rules ~~~~~~~~~
 */
-
+img {
+    width: 100%;
+}
 /*
 ~~~~~~~~ End Common Rules ~~~~~~~~~
 */
 
+/* Fix bar */
 
+.fixbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh; 
+    border-bottom: 1px solid black;
+
+}
+
+.aleft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5em;
+    height: 6vh;
+    width: 8%;
+}
+
+.imid {
+    padding: 10px 10px 10px 10px;
+    border-left: 1px #e5e5e5 solid;
+    border-right: 1px #e5e5e5 solid;
+}
+
+.aleft i {
+    color:  gray;
+}
+
+.aright{
+    font-size: 13px;
+    margin-top: 1em;
+    margin-right: 6em;
+}
 
 /*
 ~~~~~~~~ Start Header rules ~~~~~~~~~
 */
 
+.nav {
+    font-size: 15px;
+    width: 100%;
+    height: 10vh;
+    margin-top: 30px;
+}
+
+.liste {
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.nav a {
+    margin: 20px;
+}
+
+.bordure {
+    border-right: 1px solid gray;
+}
+
+header ul {
+    list-style-type: none;
+}
+
 /*
 ~~~~~~~~ End Header Rules ~~~~~~~~~
 */
 
+.image {
+    position: relative;
+    height: 90vh;
+    margin-top: 2em;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.paragraphe {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    color:white;
+}
+
+section h1 {
+    text-align: center;
+    margin-top: 0;
+}
 
 
+.Oceasport {
+    background-color:#ed008c;
+    height: 50vh;
+} 
+
+.text-icones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icones {
+    height: 100%;
+    width: 20%;
+    text-align: center;
+}
+
+.button {
+
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    }
+
+.text-button a{
+    background-color: yellow;
+    padding: 1em;
+    border: 1px solid yellow;
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+}
 /*
 ~~~~~~~~ Start Footer rules ~~~~~~~~~
 */
+
+footer {
+    background-color: red;
+}
 
 /*
 ~~~~~~~~ End Footer Rules ~~~~~~~~~
