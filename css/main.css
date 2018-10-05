@@ -120,12 +120,16 @@ img {
 /* Fix bar */
 
 .fixbar {
+    background-color: white;
+    position: fixed;
+    z-index: 2  ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 6vh; 
+    height: 7vh; 
     border-bottom: 1px solid black;
-
+    top: 0px;
+    width: 100%;
 }
 
 .aleft {
@@ -161,7 +165,7 @@ img {
     font-size: 15px;
     width: 100%;
     height: 10vh;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .liste {
@@ -219,26 +223,45 @@ section h1 {
 }
 
 .icones {
+    margin-left: 2em;
     height: 100%;
     width: 20%;
     text-align: center;
 }
 
 .button {
-
     margin-top: 2em;
     display: flex;
     justify-content: center;
     height: 20%;
     }
 
-.text-button a{
+.text-button {
+    display: flex;
+    align-items: center;
+    height: 70%;
     background-color: yellow;
-    padding: 1em;
     border: 1px solid yellow;
+}
+
+.text-button a {
+    color: black;
+    padding: 1em;
     border-radius: 2px;
     text-decoration: none;
-    color: black;
+}
+
+.contrat {
+    width: 100%;
+    
+    background-color: blue;
+}
+
+.text-contrat {
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 85%;
+    text-align: justify;
 }
 /*
 ~~~~~~~~ Start Footer rules ~~~~~~~~~
