@@ -253,7 +253,7 @@ section h1 {
 
 .contrat {
     width: 100%;
-    background-color: blue;
+    margin-bottom: 2em;
 }
 
 .text-contrat {
@@ -303,10 +303,6 @@ section h1 {
     border: 1px solid 
 }
 
-.details {
-    background: yellow;
-}
-
 .placement {
     display: flex;
     justify-content: space-around;
@@ -339,12 +335,26 @@ section h1 {
 
 footer {
     display: flex;
+    justify-content: space-around;
     background-color: #4c4c4c;
 }
 
 footer li{
     list-style-type: none;
+}
 
+.liens section{
+    margin: 0 auto;
+}
+.liens section ul{
+    padding: 0;
+    margin: auto;
+}
+.liens section ul li{
+    list-style-type: none;
+}
+.liens section a{
+    color:white;
 }
 
 /*
