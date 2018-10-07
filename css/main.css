@@ -110,44 +110,256 @@ textarea {
 /*
 ~~~~~~~~ Start Common rules ~~~~~~~~~
 */
+img {
+    width: 100%;
+}
 
 /*
 ~~~~~~~~ End Common Rules ~~~~~~~~~
 */
 
+/* Fix bar */
 
+.fixbar {
+    background-color: white;
+    position: fixed;
+    z-index: 2  ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh; 
+    border-bottom: 1px solid black;
+    top: 0px;
+    width: 100%;
+}
+
+.aleft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5em;
+    height: 6vh;
+    width: 8%;
+}
+
+.imid {
+    padding: 10px 10px 10px 10px;
+    border-left: 1px #e5e5e5 solid;
+    border-right: 1px #e5e5e5 solid;
+}
+
+.aleft i {
+    color:  gray;
+}
+
+.aright{
+    font-size: 13px;
+    margin-top: 1em;
+    margin-right: 6em;
+}
 
 /*
 ~~~~~~~~ Start Header rules ~~~~~~~~~
 */
 
+.nav {
+    font-size: 15px;
+    width: 100%;
+    height: 10vh;
+    margin-top: 5em;
+}
+
+.liste {
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.nav a {
+    margin: 20px;
+}
+
+.bordure {
+    border-right: 1px solid gray;
+}
+
+header ul {
+    list-style-type: none;
+}
+
 /*
 ~~~~~~~~ End Header Rules ~~~~~~~~~
 */
 
+.image {
+    position: relative;
+    height: 90vh;
+    margin-top: 2em;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.paragraphe {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    color:white;
+}
+
+section h1 {
+    text-align: center;
+    margin-top: 0;
+}
 
 
+.Oceasport {
+    background-color:#ed008c;
+    height: 50vh;
+} 
+
+.text-icones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icones {
+    margin-left: 2em;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+}
+
+.button {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    }
+
+.text-button {
+    display: flex;
+    align-items: center;
+    height: 70%;
+    background-color: yellow;
+}
+
+.text-button a {
+    color: black;
+    padding: 1em;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.contrat {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.text-contrat {
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 85%;
+    text-align: justify;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.backgroundinfo {
+    height: 50vh;
+    width: 100%;
+    background-color:#ed008c;
+    display: flex;
+    align-items: center;
+    
+}
+
+.place_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    justify-content: center;
+    width: 20%;
+    overflow: hidden;
+}
+
+.backgroundinfo h3 {    
+    text-align: center;
+    background-color: purple;
+}
+
+
+.backgroundinfo a { 
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    text-decoration: none;
+    width: 50%;
+    border: 1px solid 
+}
+
+.placement {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+
+}   
+
+.addresse ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+.addresse {
+ font-size: .9em;
+ text-align: left;
+ width: 20%;
+}
+
+.addresse h3 {
+    margin-left: 1em;
+    text-align: center;
+}
+
+.addresse a {
+    text-align: center;
+}
 /*
-~~~~~~~~ Start Main rules ~~~~~~~~~
+~~~~~~~~ Start Footer rules ~~~~~~~~~
 */
 
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4c4c4c;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+.liens section{
+    margin: 0 auto;
+}
+.liens section ul{
+    padding: 0;
+    margin: auto;
+}
+.liens section ul li{
+    list-style-type: none;
+}
+.liens section a{
+    color:white;
+}
+
 /*
-~~~~~~~~ End Main Rules ~~~~~~~~~
+~~~~~~~~ End Footer Rules ~~~~~~~~~
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
